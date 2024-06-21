@@ -17,7 +17,7 @@ public class Banco {
                 case 'c' -> {
                     if (numContas < 10) {
                         contas[numContas] = new ContaBancaria();
-                        ler.nextLine(); // Consumir a nova linha deixada por next()
+                        ler.nextLine(); //consumir a nova linha deixada por next()
                         System.out.print("Qual o nome do titular: ");
                         String titular = ler.nextLine();
                         System.out.print("Qual a senha: ");
@@ -35,7 +35,7 @@ public class Banco {
                     }
                 }
                 case 'a' -> {
-                    ler.nextLine(); // Consumir a nova linha deixada por next()
+                    ler.nextLine(); //consumir a nova linha deixada por next
                     System.out.print("Digite o identificador: ");
                     String identificador = ler.nextLine();
                     System.out.print("Digite a senha: ");
