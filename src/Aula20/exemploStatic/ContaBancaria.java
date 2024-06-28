@@ -14,7 +14,7 @@ public class ContaBancaria {
         geraIdentificador();
     }
 
-    void depositar(float valor){
+    void depositar(float valor) {
         saldo = saldo + valor;
     }
 

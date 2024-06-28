@@ -2,7 +2,6 @@ package Aula20.exemploHeranca;
 public class Principal {
     public static void main(String[] args) {
         Motorista m1 = new Motorista("João", "Silva", 123);
-
         /*Motorista m1 = new Motorista();
         m1.setNome("João");
         m1.setSobrenome("Silva");

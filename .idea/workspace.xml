@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a871e0-aca1-4083-8959-30c40dbb726a" name="Changes" comment="Aula 1 -&gt; Conta Bancária">
-      <change afterPath="$PROJECT_DIR$/src/Aula20/exemploAcesso/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula20/exemploAcessoDois/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula20/exemploAcessoTres/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula20/exemploAcessoTres/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula20/exemploHeranca/Engenheiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula20/exemploHeranca/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula20/exemploHeranca/Motorista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula20/exemploHeranca/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula20/exemploStatic/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula20/exemploStatic/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula20/exemploStatic/Operacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula20/exemploStatic/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="24a871e0-aca1-4083-8959-30c40dbb726a" name="Changes" comment="Aula 20">
+      <change afterPath="$PROJECT_DIR$/src/Aula2/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula2/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula2/Corrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula2/Poupanca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula1/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula1/Banco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula20/exemploHeranca/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula20/exemploHeranca/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula20/exemploStatic/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula20/exemploStatic/ContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/carol/IdeaProjects/SegundoTrimestre/src/Aula2",
     "onboarding.tips.debug.path": "C:/Users/carol/IdeaProjects/SegundoTrimestre/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -65,11 +58,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carol\IdeaProjects\SegundoTrimestre\src\Aula2" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Aula20.exemploAcessoTres" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Calculadora">
     <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula20.exemploStatic.Calculadora" />
       <module name="SegundoTrimestre" />
@@ -127,22 +123,20 @@
       <option name="project" value="LOCAL" />
       <updated>1718392484142</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Aula 20">
+      <option name="closed" value="true" />
+      <created>1718997832373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718997832373</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aula 1 -&gt; Conta Bancária" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 1 -&gt; Conta Bancária" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Aula 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 20" />
   </component>
 </project>
