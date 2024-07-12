@@ -4,15 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a871e0-aca1-4083-8959-30c40dbb726a" name="Changes" comment="Aula 20">
-      <change afterPath="$PROJECT_DIR$/src/Aula2/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula2/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula2/Corrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula2/Poupanca.java" afterDir="false" />
+    <list default="true" id="24a871e0-aca1-4083-8959-30c40dbb726a" name="Changes" comment="Aula dia 28/06">
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploExcecoes/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploExcecoes/Exemplo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploExcecoes/Exemplo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploExcecoes/Operacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploFinal/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploFinal/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploFinal/Operacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploFinal/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploPolimorfismo/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploPolimorfismo/Operacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploPolimorfismo/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploPolimorfismo/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploPolimorfismo/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula23/ArquivoObjeto/EscreverObjeto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula23/ArquivoObjeto/LerObjeto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula23/ArquivoObjeto/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula23/ArquivoTexto/ArquivoDeTexto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula23/ArquivoTexto/LerTexto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula20/exemploHeranca/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula20/exemploHeranca/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula20/exemploStatic/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula20/exemploStatic/ContaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula1/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula19/Banco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula1/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula19/ContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula2/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula21/Banco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula2/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula21/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula2/Corrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula21/Corrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula2/Poupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula21/Poupanca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +59,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArquivoDeTexto.executor": "Run",
     "Application.Aula20.exemploHeranca.Principal.executor": "Run",
+    "Application.Aula22.exemploPolimorfismo.Principal.executor": "Run",
+    "Application.Banco.executor": "Run",
     "Application.Calculadora.executor": "Run",
+    "Application.EscreverObjeto.executor": "Run",
+    "Application.Exemplo1.executor": "Run",
+    "Application.Exemplo2.executor": "Run",
+    "Application.LerObjeto.executor": "Run",
+    "Application.LerTexto.executor": "Run",
     "Application.Principal.executor": "Run",
+    "Application.Teste.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/carol/IdeaProjects/SegundoTrimestre/src/Aula2",
     "onboarding.tips.debug.path": "C:/Users/carol/IdeaProjects/SegundoTrimestre/src/Main.java",
@@ -65,13 +92,13 @@
       <recent name="Aula20.exemploAcessoTres" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Calculadora">
-    <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula20.exemploStatic.Calculadora" />
+  <component name="RunManager" selected="Application.LerObjeto">
+    <configuration name="ArquivoDeTexto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula23.ArquivoTexto.ArquivoDeTexto" />
       <module name="SegundoTrimestre" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula20.exemploStatic.*" />
+          <option name="PATTERN" value="Aula23.ArquivoTexto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +106,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula20.exemploStatic.Principal" />
+    <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula22.exemploExcecoes.Calculadora" />
       <module name="SegundoTrimestre" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula20.exemploStatic.*" />
+          <option name="PATTERN" value="Aula22.exemploExcecoes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EscreverObjeto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula23.ArquivoObjeto.EscreverObjeto" />
+      <module name="SegundoTrimestre" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula23.ArquivoObjeto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LerObjeto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula23.ArquivoObjeto.LerObjeto" />
+      <module name="SegundoTrimestre" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula23.ArquivoObjeto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LerTexto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula23.ArquivoTexto.LerTexto" />
+      <module name="SegundoTrimestre" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula23.ArquivoTexto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,8 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LerObjeto" />
+        <item itemvalue="Application.EscreverObjeto" />
+        <item itemvalue="Application.LerTexto" />
+        <item itemvalue="Application.ArquivoDeTexto" />
         <item itemvalue="Application.Calculadora" />
-        <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -131,12 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1718997832373</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Aula dia 28/06">
+      <option name="closed" value="true" />
+      <created>1719602839584</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719602839584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aula 1 -&gt; Conta Bancária" />
     <MESSAGE value="Aula 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 20" />
+    <MESSAGE value="Aula dia 28/06" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula dia 28/06" />
   </component>
 </project>

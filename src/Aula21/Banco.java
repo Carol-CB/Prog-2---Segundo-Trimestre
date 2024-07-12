@@ -1,12 +1,8 @@
-package Aula2;
+package Aula21;
 
-import Aula1.ContaBancaria;
-
-import java.util.Random;
 import java.util.Scanner;
 
 public class Banco {
-	static Scanner ler = new Scanner(System.in);
 	public static String leString(String mensagem){
 		Scanner ler = new Scanner(System.in);
 		System.out.print(mensagem+": ");
@@ -19,9 +15,27 @@ public class Banco {
 		return ler.nextFloat();
 	}
 
+	public static Corrente cadastraCC(){
+		String titular = leString("Qual o nome do titular");
+		String senha = leString("Qual a senha");
+		float limite = leFloat("Qual o limite inicial");
+		Corrente c1 = new Corrente(titular, senha, limite);
+		System.out.println("Conta cadastrada com o id: "+c1.getIdentificador());
+		return c1;
+	}
+
+	public static Poupanca cadastraCP(){
+		String titular = leString("Qual o nome do titular");
+		String senha = leString("Qual a senha");
+		float deposito = leFloat("Qual o depósito inicial");
+		Poupanca c1 = new Poupanca(titular, senha, deposito);
+		System.out.println("Conta cadastrada com o id: "+c1.getIdentificador());
+		return c1;
+	}
+
 	public static Corrente acessaCC(Corrente c1){
 		char opc;
-		System.out.println("Acessando a conte "+c1.getIdentificador());
+		System.out.println("Acessando a conta "+c1.getIdentificador());
 		do {
 			System.out.println("Selecione uma opção");
 			System.out.println("v - verificar saldo");
@@ -94,56 +108,46 @@ public class Banco {
 			opc = leString("");
 			switch (opc) {
 				case "cc" -> {
-					if (contCC < 20) {
-						System.out.print("Qual o nome do titular: ");
-						String titular = ler.nextLine();
-						System.out.print("Qual a senha: ");
-						String senha = ler.nextLine();
-						System.out.print("Qual o limite da conta: ");
-						float limite = ler.nextFloat();
-
-						listaCC[contCC] = new Corrente(titular, senha, limite);
-
-						System.out.println("Conta cadastrada no ID: " + listaCC[contCC].getIdentificador());
-						contCC++;
-					}
-					else {
-						System.out.println("Número máximo de contas atingido.");
-					}
+					listaCC[contCC] = cadastraCC();
+					contCC++;
 				}
-
 				case "cp" -> {
-					if (contCP < 20) {
-						System.out.print("Qual o nome do titular: ");
-						String titular = ler.nextLine();
-						System.out.print("Qual a senha: ");
-						String senha = ler.nextLine();
-						System.out.print("Qual o depósito inicial: ");
-						float valor = ler.nextFloat();
-
-						listaCP[contCP] = new Poupanca(titular, senha, valor);
-
-						System.out.println("Conta cadastrada no ID: " + listaCP[contCP].getIdentificador());
-						contCC++;
-					}
-					else {
-						System.out.println("Número máximo de contas atingido.");
-					}
+					listaCP[contCP] = cadastraCP();
+					contCP++;
 				}
 
-				/*case "ac" ->{
-					System.out.print("Digite o identificador: ");
-					String identificador = ler.nextLine();
-					System.out.print("Digite a senha: ");
-					String senha = ler.nextLine();
-
-					Corrente c1 = null;
-					for (Corrente c : contas) {
-						if (c != null && c.validar(identificador, senha)) {
-							conta = c;
-							break;
+				case "ac" ->{
+					String identificador = leString("Digite o identificador: ");
+					String senha = leString("Digite a senha: ");
+					int posicao = -1;
+					for(int i=0; i<contCC; i++){
+						if(listaCC[i].validar(identificador, senha)){
+							posicao = i;
 						}
-				}*/
+					}
+					if(posicao>=0){
+						listaCC[posicao] = acessaCC(listaCC[posicao]);
+					}
+					else{
+						System.out.println("Informações de acesso inválidas.");
+					}
+				}
+				case "ap" ->{
+					String identificador = leString("Digite o identificador: ");
+					String senha = leString("Digite a senha: ");
+					int posicao = -1;
+					for(int i=0; i<contCP; i++){
+						if(listaCP[i].validar(identificador, senha)){
+							posicao = i;
+						}
+					}
+					if(posicao>=0){
+						listaCP[posicao] = acessaCP(listaCP[posicao]);
+					}
+					else{
+						System.out.println("Informações de acesso inválidas.");
+					}
+				}
 			}
 		} while(!opc.equals("e"));
 	}

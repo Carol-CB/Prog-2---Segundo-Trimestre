@@ -1,4 +1,4 @@
-package Aula2;
+package Aula21;
 
 public class Corrente extends Conta{
     public float getLimite() {
@@ -26,10 +26,10 @@ public class Corrente extends Conta{
 
     public String verificar(){
         if(saldo>=0){
-            return String.format("Saldo: R$%.2f\n Limite: R$.2f", saldo, limite);
+            return String.format("Saldo: R$%.2f\n Limite: R$%.2f", saldo, limite);
         }
         else {
-            return String.format("Saldo: R$%.2f\n Limite: R$.2f", saldo, limite + saldo);
+            return String.format("Saldo: R$%.2f\n Limite: R$%.2f", saldo, limite + saldo);
         }
     }
 }
