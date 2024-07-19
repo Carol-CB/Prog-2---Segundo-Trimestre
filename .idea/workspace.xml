@@ -4,32 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a871e0-aca1-4083-8959-30c40dbb726a" name="Changes" comment="Aula dia 28/06">
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploExcecoes/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploExcecoes/Exemplo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploExcecoes/Exemplo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploExcecoes/Operacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploFinal/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploFinal/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploFinal/Operacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploFinal/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploPolimorfismo/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploPolimorfismo/Operacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploPolimorfismo/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploPolimorfismo/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula22/exemploPolimorfismo/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula23/ArquivoObjeto/EscreverObjeto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula23/ArquivoObjeto/LerObjeto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula23/ArquivoObjeto/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula23/ArquivoTexto/ArquivoDeTexto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula23/ArquivoTexto/LerTexto.java" afterDir="false" />
+    <list default="true" id="24a871e0-aca1-4083-8959-30c40dbb726a" name="Changes" comment="Aula dia 12/07">
+      <change afterPath="$PROJECT_DIR$/src/Aula24/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula24/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula24/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula24/ContaPoupanca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula1/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula19/Banco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula1/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula19/ContaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula2/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula21/Banco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula2/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula21/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula2/Corrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula21/Corrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula2/Poupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula21/Poupanca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,33 +37,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArquivoDeTexto.executor": "Run",
-    "Application.Aula20.exemploHeranca.Principal.executor": "Run",
-    "Application.Aula22.exemploPolimorfismo.Principal.executor": "Run",
-    "Application.Banco.executor": "Run",
-    "Application.Calculadora.executor": "Run",
-    "Application.EscreverObjeto.executor": "Run",
-    "Application.Exemplo1.executor": "Run",
-    "Application.Exemplo2.executor": "Run",
-    "Application.LerObjeto.executor": "Run",
-    "Application.LerTexto.executor": "Run",
-    "Application.Principal.executor": "Run",
-    "Application.Teste.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/carol/IdeaProjects/SegundoTrimestre/src/Aula2",
-    "onboarding.tips.debug.path": "C:/Users/carol/IdeaProjects/SegundoTrimestre/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArquivoDeTexto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula20.exemploHeranca.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aula22.exemploPolimorfismo.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Banco.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculadora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EscreverObjeto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exemplo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exemplo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LerObjeto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LerTexto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teste.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/carol/IdeaProjects/SegundoTrimestre/src/Aula2&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/carol/IdeaProjects/SegundoTrimestre/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\carol\IdeaProjects\SegundoTrimestre\src\Aula2" />
@@ -92,7 +72,7 @@
       <recent name="Aula20.exemploAcessoTres" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LerObjeto">
+  <component name="RunManager" selected="Application.Banco">
     <configuration name="ArquivoDeTexto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula23.ArquivoTexto.ArquivoDeTexto" />
       <module name="SegundoTrimestre" />
@@ -106,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula22.exemploExcecoes.Calculadora" />
+    <configuration name="Banco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula24.Banco" />
       <module name="SegundoTrimestre" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula22.exemploExcecoes.*" />
+          <option name="PATTERN" value="Aula24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Banco" />
         <item itemvalue="Application.LerObjeto" />
         <item itemvalue="Application.EscreverObjeto" />
         <item itemvalue="Application.LerTexto" />
         <item itemvalue="Application.ArquivoDeTexto" />
-        <item itemvalue="Application.Calculadora" />
       </list>
     </recent_temporary>
   </component>
@@ -208,13 +188,22 @@
       <option name="project" value="LOCAL" />
       <updated>1719602839584</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Aula dia 12/07">
+      <option name="closed" value="true" />
+      <created>1720810791783</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720810791783</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aula 1 -&gt; Conta Bancária" />
     <MESSAGE value="Aula 20" />
     <MESSAGE value="Aula dia 28/06" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula dia 28/06" />
+    <MESSAGE value="Aula dia 12/07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula dia 12/07" />
   </component>
 </project>
